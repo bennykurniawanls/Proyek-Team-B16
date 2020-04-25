@@ -1,1 +1,87 @@
-/*buat style nya*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Avenir Next";
+}
+
+
+/* ini style buat bagian UTAMA jgn di edit atau di ubah */
+
+.flexbox-container {
+    /* display: -ms-flex;
+    display: -webkit-flex; */
+    display: flex;
+    color: rgba(255, 255, 255, 0.76);
+    height: 350px;
+}
+
+.menu1 {
+    width: 50%;
+    text-align: center;
+    background-size: cover;
+    background-image: url(pubg-helmet-guy-with-girls-and-guns-4k-i2.jpg);
+}
+
+.menu2 {
+    width: 50%;
+    text-align: center;
+    background-size: cover;
+    background-image: url(csgo-game-wallpaper-hd.jpg);
+}
+
+h2 {
+    margin-top: 50px;
+    /* background-color: yellowgreen; */
+    opacity: 0.9;
+    letter-spacing: 15px;
+    font-weight: lighter;
+}
+
+h1 {
+    margin-top: 20px;
+    /* background-color: violet; */
+    opacity: 0.9;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.btn {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn-menu p {
+    color: whitesmoke;
+}
+
+.btn:hover {
+    opacity: 1;
+    background-color: black;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.signup {
+    background-color: #ff0000;
+}
+
+.artikel {
+    background-color: #656c96;
+    margin-right: 10px;
+}
+
+
+/* sampai di sini css buat bagian utama */
