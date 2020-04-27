@@ -6,6 +6,13 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+.container {
+    /* Ubah width ke 100% */
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 
 /* ini bagian navigasi header */
 
@@ -44,12 +51,16 @@ li a:hover:not(.active) {
 
 /* ini style buat bagian UTAMA jgn di edit atau di ubah */
 
+.clear {
+    clear: left;
+}
+
 .flexbox-container {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
     color: rgba(255, 255, 255, 0.7);
-    height: 350px;
+    height: 400px;
 }
 
 .menu1 {
@@ -68,16 +79,14 @@ li a:hover:not(.active) {
 
 h2 {
     margin-top: 50px;
-    /* background-color: yellowgreen; */
-    /* opacity: 0.9; */
     letter-spacing: 15px;
     font-weight: lighter;
+    width: 100%;
 }
 
 h1 {
     margin-top: 20px;
-    /* background-color: violet; */
-    /* opacity: 0.9; */
+    width: 100%;
     font-size: 30px;
     font-weight: lighter;
 }
@@ -133,7 +142,7 @@ div.gallery1 {
     margin: 10px;
     border: 5px solid red;
     float: left;
-    width: 255px;
+    width: 20%;
     position: relative;
 }
 
@@ -169,7 +178,7 @@ div.gallery2 {
     margin: 10px;
     border: 5px solid rgb(9, 21, 196);
     float: left;
-    width: 255px;
+    width: 20%;
 }
 
 div.gallery2:hover {
@@ -188,11 +197,12 @@ footer {
     background-color: rgb(2, 1, 1);
     color: white;
     text-align: center;
-    margin: 0 0 5px 0;
+    margin: auto;
     padding: 5px;
     /* position: absolute; */
     top: 1100px;
-    left: 0;
-    right: 0;
+    /* left: 0;
+    right: 0; */
+    width: 100%;
     clear: both;
 }
